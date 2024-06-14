@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player : Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" href="/resources/images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left border  ">
+
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="close">
+                    <img width="30px" class="invert" src="/resources/closeicon.svg" alt="" srcset="">
+                </div>
+                <div class="logo"><img class="invert" src="/resources/logo.svg"></div>
+                <ul class="">
+                    <li><img class="invert" src="/spotify/resources/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="/spotify/resources/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="/resources/playlist.svg">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="songList">
+                    <ul>
+                        <li> <img class="invert" src="/resources/music.svg" alt="" srcset="">
+                            <div class="info">
+                                <div>Song Name</div>
+                                <div>Song Artist</div>
+                            </div>
+                            <div class="playnow">
+                                <span>Play Now </span>
+                                <img class="invert" src="/resources/play.svg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div> <a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety & Privacy
+                                Center</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerContainer">
+                        <img width="40px" class="invert hamburger" src="/resources/hamburger.svg" alt="" srcset="">
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                color="#000000" fill="none">
+                                <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                color="#000000" fill="none">
+                                <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <button class="btn-22">Sign Up</button>
+                        <button class="btn-2">Login</button>
+                    </div>
+                </div>
+                <div class="spotifyPlaylists">
+                    <h2>Popular artists</h2>
+                    <div class="cardContainer">
+                        <div data-folder="pritiam-song" class="card border">
+                            <div class="play">
+                                <svg style="width: 50px; height: 50px; border:none" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 30 30" fill="#1fdf64">
+                                    <circle cx="15" cy="15" r="12" stroke="black" stroke-width="1.5" />
+                                    <path
+                                        d="M11.5 13.7998V16.2002C11.5 17.7195 11.5 18.4791 11.9558 18.7862C12.4115 19.0932 13.0348 18.7535 14.2815 18.0741L15.7497 17.2738C17.2499 16.4562 18 16.0474 18 15.4C18 14.7526 17.2499 14.3438 15.7497 13.5262L14.2815 12.7259C13.0348 12.0465 12.4115 11.7068 11.9558 12.0138C11.5 12.3209 11.5 13.0805 11.5 13.7998Z"
+                                        fill="black" />
+                                </svg>
+
+                            </div>
+                            <img src="/resources/images/pritam.jpg">
+                            <h3>Pritam</h3>
+                            <p>artist</p>
+                        </div>
+                        <div data-folder="arjit-song" class="card border">
+                            <div class="play">
+                                <svg style="width: 50px; height: 50px; border:none" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 30 30" fill="#1fdf64">
+                                    <circle cx="15" cy="15" r="12" stroke="black" stroke-width="1.5" />
+                                    <path
+                                        d="M11.5 13.7998V16.2002C11.5 17.7195 11.5 18.4791 11.9558 18.7862C12.4115 19.0932 13.0348 18.7535 14.2815 18.0741L15.7497 17.2738C17.2499 16.4562 18 16.0474 18 15.4C18 14.7526 17.2499 14.3438 15.7497 13.5262L14.2815 12.7259C13.0348 12.0465 12.4115 11.7068 11.9558 12.0138C11.5 12.3209 11.5 13.0805 11.5 13.7998Z"
+                                        fill="black" />
+                                </svg>
+                            </div>
+                            <img src="/resources/arjit2.png">
+                            <h3>Arijit Singh</h3>
+                            <p>artist</p>
+                        </div>
+                        <div data-folder="rhaman-song" class="card border">
+                            <div class="play">
+                                <svg style="width: 50px; height: 50px; border:none" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 30 30" fill="#1fdf64">
+                                    <circle cx="15" cy="15" r="12" stroke="black" stroke-width="1.5" />
+                                    <path
+                                        d="M11.5 13.7998V16.2002C11.5 17.7195 11.5 18.4791 11.9558 18.7862C12.4115 19.0932 13.0348 18.7535 14.2815 18.0741L15.7497 17.2738C17.2499 16.4562 18 16.0474 18 15.4C18 14.7526 17.2499 14.3438 15.7497 13.5262L14.2815 12.7259C13.0348 12.0465 12.4115 11.7068 11.9558 12.0138C11.5 12.3209 11.5 13.0805 11.5 13.7998Z"
+                                        fill="black" />
+                                </svg>
+
+                            </div>
+                            <img src="/resources/arraman.png">
+                            <h3>A.R.Rahman</h3>
+                            <p>artist</p>
+                        </div>
+                        <div data-folder="subh-song" class="card border">
+                            <div class="play">
+                                <svg style="width: 50px; height: 50px; border:none" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 30 30" fill="#1fdf64">
+                                    <circle cx="15" cy="15" r="12" stroke="black" stroke-width="1.5" />
+                                    <path
+                                        d="M11.5 13.7998V16.2002C11.5 17.7195 11.5 18.4791 11.9558 18.7862C12.4115 19.0932 13.0348 18.7535 14.2815 18.0741L15.7497 17.2738C17.2499 16.4562 18 16.0474 18 15.4C18 14.7526 17.2499 14.3438 15.7497 13.5262L14.2815 12.7259C13.0348 12.0465 12.4115 11.7068 11.9558 12.0138C11.5 12.3209 11.5 13.0805 11.5 13.7998Z"
+                                        fill="black" />
+                                </svg>
+
+                            </div>
+                            <img src="/resources/shubh.png">
+                            <h3>Shubh</h3>
+                            <p>artist</p>
+                        </div>
+                    </div>
+                    <div class="album">
+                        <h2>Popular Albums</h2>
+                        <div class="cardContainer2">
+
+                            <div data-folder="lofi-song" class="card1 border">
+                                <div class="play">
+                                    <svg style="width: 50px; height: 50px; border:none"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="#1fdf64">
+                                        <circle cx="15" cy="15" r="12" stroke="black" stroke-width="1.5" />
+                                        <path
+                                            d="M11.5 13.7998V16.2002C11.5 17.7195 11.5 18.4791 11.9558 18.7862C12.4115 19.0932 13.0348 18.7535 14.2815 18.0741L15.7497 17.2738C17.2499 16.4562 18 16.0474 18 15.4C18 14.7526 17.2499 14.3438 15.7497 13.5262L14.2815 12.7259C13.0348 12.0465 12.4115 11.7068 11.9558 12.0138C11.5 12.3209 11.5 13.0805 11.5 13.7998Z"
+                                            fill="black" />
+                                    </svg>
+                                </div>
+                                <img src="/resources/images/lofi.jpg" alt="">
+                                <h3>Lofi Song</h3>
+                                <p>By Feel Magical Vibe</p>
+                            </div>
+                            <div class="card1 border">
+                                <div class="play">
+                                    <svg style="width: 50px; height: 50px; border:none"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="#1fdf64">
+                                        <circle cx="15" cy="15" r="12" stroke="black" stroke-width="1.5" />
+                                        <path
+                                            d="M11.5 13.7998V16.2002C11.5 17.7195 11.5 18.4791 11.9558 18.7862C12.4115 19.0932 13.0348 18.7535 14.2815 18.0741L15.7497 17.2738C17.2499 16.4562 18 16.0474 18 15.4C18 14.7526 17.2499 14.3438 15.7497 13.5262L14.2815 12.7259C13.0348 12.0465 12.4115 11.7068 11.9558 12.0138C11.5 12.3209 11.5 13.0805 11.5 13.7998Z"
+                                            fill="black" />
+                                    </svg>
+                                </div>
+                                <img src="/resources/images/party.png" alt="">
+                                <h3>Party Song</h3>
+                                <p>Party Eraa</p>
+                            </div>
+                            <div class="card1 border">
+                                <div class="play">
+                                    <svg style="width: 50px; height: 50px; border:none"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="#1fdf64">
+                                        <circle cx="15" cy="15" r="12" stroke="black" stroke-width="1.5" />
+                                        <path
+                                            d="M11.5 13.7998V16.2002C11.5 17.7195 11.5 18.4791 11.9558 18.7862C12.4115 19.0932 13.0348 18.7535 14.2815 18.0741L15.7497 17.2738C17.2499 16.4562 18 16.0474 18 15.4C18 14.7526 17.2499 14.3438 15.7497 13.5262L14.2815 12.7259C13.0348 12.0465 12.4115 11.7068 11.9558 12.0138C11.5 12.3209 11.5 13.0805 11.5 13.7998Z"
+                                            fill="black" />
+                                    </svg>
+                                </div>
+                                <img src="/resources/images/sad.png" alt="">
+                                <h3>Sad Song</h3>
+                                <p>By Feel Magical Vibe</p>
+                            </div>
+                            <div class="card1 border">
+                                <div class="play">
+                                    <svg style="width: 50px; height: 50px; border:none"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="#1fdf64">
+                                        <circle cx="15" cy="15" r="12" stroke="black" stroke-width="1.5" />
+                                        <path
+                                            d="M11.5 13.7998V16.2002C11.5 17.7195 11.5 18.4791 11.9558 18.7862C12.4115 19.0932 13.0348 18.7535 14.2815 18.0741L15.7497 17.2738C17.2499 16.4562 18 16.0474 18 15.4C18 14.7526 17.2499 14.3438 15.7497 13.5262L14.2815 12.7259C13.0348 12.0465 12.4115 11.7068 11.9558 12.0138C11.5 12.3209 11.5 13.0805 11.5 13.7998Z"
+                                            fill="black" />
+                                    </svg>
+                                </div>
+                                <img src="/resources/images/romantic.png" alt="">
+                                <h3>Romantic Song</h3>
+                                <p>By Feel Magical Vibe</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="footers">
+                        <div class="container3">
+                            <ul>
+                                <li class="h6">Company</li>
+                                <li>About</li>
+                                <li>Jobs</li>
+                                <li>For the Records</li>
+                            </ul>
+                        </div>
+                        <div class="container3">
+                            <ul>
+                                <li class="h6">Communities</li>
+                                <li>For Artists</li>
+                                <li>Developers</li>
+                                <li>advertising</li>
+                                <li>Investors</li>
+                                <li>Vendors</li>
+                            </ul>
+                        </div>
+                        <div class="container3">
+                            <ul>
+                                <li class="h6">Useful links</li>
+                                <li>Supports</li>
+                                <li>Free Mobile App</li>
+
+                            </ul>
+                        </div>
+                        <div class="container3">
+                            <ul>
+                                <li class="h6">Spotify Plans</li>
+                                <li>Premium Individual</li>
+                                <li>Premium Duo</li>
+                                <li>Premium Family</li>
+                                <li>Premium Student</li>
+                                <li>Spotify Free</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="playbar">
+                        <div class="seekbar">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="abovebar">
+                            <div class="songinfo"></div>
+                            <div class="songplaybutton">
+                                <img width="25px" id="previous" src="resources/prevsong.svg">
+                                <img width="25px" id="play" src="resources/play.svg">
+                                <img width="25px" id="next" src="resources/nextsong.svg">
+                            </div>
+                            <div class="timevol">
+                                <div class="songtime"></div>
+                                <div class="volume">
+                                    <img width="25px" src="/resources/volume.svg" alt="">
+                                    <div class="range">
+                                        <input type="range" name="volume">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+</body>
+
+</html>
